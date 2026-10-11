@@ -50,8 +50,7 @@
                 await cheerpjCreateDisplay(500, 600, container);
 
                 document.getElementById("status").innerText = "Starting 2048...";
-                await cheerpjRunJar("/java/src/2048-game.jar");
-
+               await cheerpjRunJar("/app/java/src/2048-game.jar");
                 document.getElementById("status").style.display = "none";
             } catch (err) {
                 document.getElementById("status").innerText = "Error: " + err.message;
