@@ -2,8 +2,12 @@
 
 A complete implementation of the classic 2048 tile-merging game in pure Java (Swing).
 
-**Run Online (Replit):** [add after upload]
-**GitHub:** github.com/Sumitdarkcodes/2048-game
+**Play Online:** Click "Code" → "Codespaces" → "Create codespace on main" → run `cd java/src && javac *.java && java Main`
+**GitHub:** https://github.com/Sumitdarkcodes/2048-Game-java-
+
+## Screenshot
+
+![2048 Game](screenshot.png)
 
 ## Features
 
@@ -18,9 +22,12 @@ A complete implementation of the classic 2048 tile-merging game in pure Java (Sw
 
 Use arrow keys (↑ ↓ ← →) to slide tiles. When two tiles with the same number touch, they merge into one. Reach 2048 to win!
 
-## Running Locally
+Press **R** to restart at any time.
 
-If you have Java installed:
+## Run Locally
+
+Requires Java 17+:
+
 ```bash
 cd java/src
 javac *.java
